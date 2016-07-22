@@ -29,6 +29,11 @@ td.driver {
   padding-left: 75px;
 }
 
+td.team {
+  font-style: italic;
+  font-weight: bold; 
+}
+
 th, td {
   padding: 12px;
 }
