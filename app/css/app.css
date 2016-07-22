@@ -19,6 +19,10 @@ td {
   text-align: center;
 }
 
+td.driver {
+  font-weight: bold;
+}
+
 th, td {
   padding: 12px;
 }
