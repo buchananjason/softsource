@@ -1,6 +1,7 @@
 /* app css stylesheet */
 
 table {
+  border-radius: 4px;
   width: 70%;
 }
 
@@ -16,6 +17,10 @@ thead {
 td {
   border-radius: 6px;
   text-align: center;
+}
+
+th, td {
+  padding: 12px;
 }
 
 tr:nth-child(even) {
