@@ -8,6 +8,11 @@ table, td {
   border: 2px solid black;
 }
 
+thead {
+  background-color: dimgray;
+  color: white;
+}
+
 td {
   border-radius: 6px;
   text-align: center;
