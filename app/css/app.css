@@ -45,3 +45,15 @@ tr:nth-child(even) {
 input {
   border-radius: 8px;
 }
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* a:link */
+/* a:visited */
+a:hover {
+  color: darkgray;
+}
+/* a:active */
