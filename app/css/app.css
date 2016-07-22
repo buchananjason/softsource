@@ -1,36 +1,7 @@
 /* app css stylesheet */
 
-.menu {
-  list-style: none;
-  border-bottom: 0.1em solid black;
-  margin-bottom: 2em;
-  padding: 0 0 0.5em;
-}
-
-.menu:before {
-  content: "[";
-}
-
-.menu:after {
-  content: "]";
-}
-
-.menu > li {
-  display: inline;
-}
-
-.menu > li:before {
-  content: "|";
-  padding-right: 0.3em;
-}
-
-.menu > li:nth-child(1):before {
-  content: "";
-  padding: 0;
-}
-
 table {
-  width: 70%; 
+  width: 70%;
 }
 
 table, td {
@@ -39,10 +10,11 @@ table, td {
 
 td {
   border-radius: 6px;
+  text-align: center;
 }
 
 tr:nth-child(even) {
-  background-color: #f2f2f2;
+  background-color: #e2e2e2;
 }
 
 input {
